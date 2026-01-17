@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_recipes_nav_graph"
+    app:startDestination="@id/myRecipesFragment">
+
+    <fragment
+        android:id="@+id/myRecipesFragment"
+        android:name="com.example.homeworkstbc.presentation.screen.myRecipes.MyRecipesFragment"
+        android:label="My Recipes"
+        tools:layout="@layout/fragment_my_recipes" >
+        <action
+            android:id="@+id/action_myRecipesFragment_to_myRecipeDetailsFragment"
+            app:destination="@id/myRecipeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myRecipeDetailsFragment"
+        android:name="com.example.homeworkstbc.presentation.screen.my_recipe_details.MyRecipeDetailsFragment"
+        android:label="fragment_my_recipe_details"
+        tools:layout="@layout/fragment_my_recipe_details" >
+        <argument
+            android:name="recipe_item"
+            app:argType="com.example.homeworkstbc.presentation.screen.myRecipes.model.MyRecipeModel" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="carrot_color">#DC6701</color>
+    <color name="transparent">#00000000</color>
+    <color name="edit_text_white">#EFF2FD</color>
+    <color name="gray">#9AA0A6</color>
+    <color name="hint_gray">#6A9AA0A6</color>
+    <color name="bottom_nav_background">#30434D</color>
+    <color name="app_bg">#22343C</color>
+    <color name="red">#BF1919</color>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "586884539426",
+    "project_id": "forkify-app-midterm",
+    "storage_bucket": "forkify-app-midterm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586884539426:android:0d311969c0ba44cd61167b",
+        "android_client_info": {
+          "package_name": "com.example.homeworkstbc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBROi8Q3rCCkTD4n3Rooj7Iv3-wkZwDhfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
